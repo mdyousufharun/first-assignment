@@ -10,7 +10,7 @@
     margin-right: 20px;
     margin-left: 20px;
 }
-/* shared css code */
+/* ......................................shared css code..................................................................................... */
 .main-btn{
     font-size: 18px;
     font-weight: 600;
@@ -23,7 +23,7 @@
 .main-color{
     background-color: #F1F1F3;
 }
-/* header css */
+/* ...................................header css ................................................................*/
 .btn-primary{
     border-radius: 8px;
     font-size: 18px;
@@ -66,7 +66,7 @@
     font-weight: bold;
     color: #0E0E0E;
 }
-/* pilllars contains style */
+/* .............................................pilllars contains style......................................................... */
 .pillars-contain{
     margin-top: 70px;
     margin-bottom: 50px;
@@ -94,7 +94,7 @@
     font-size: 16px;
     color: #0e0e0ea2;
 }
-/* future vision style */
+/* ....................................future vision style.............................................................. */
 .future-vision-description{
     font-size: 16px;
     color: #0e0e0ea2;
@@ -161,7 +161,7 @@
     font-size: 16px;
     color: #0e0e0e79;
 }
-/* recent news style */
+/* ............................................recent news style.................................................................... */
 .recent-news-contain{
     margin-top: 70px;
 }
@@ -206,4 +206,54 @@
     font-size: 16px;
     color: #0e0e0eaf;
     margin-top: 0;
+}
+/* ......................donate section style................................................................... */
+.donate-section{
+    margin-top: 70px;
+}
+.donate-upper-section{
+    text-align: center;
+}
+.donate-section-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.donate-section-description{
+    font-size: 16px;
+    color: #0e0e0eb0;
+}
+.money-boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.money-box{
+    border-radius: 15px;
+    padding: 10px;
+    border: 2px solid #0e0e0e3d;
+    background-color: white;
+}
+.money-box h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0e0e0eda;
+}
+.input-box{
+    text-align: center;
+    margin-top: 60px;
+}
+.input-box input{
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.btn-div{
+    text-align: center;
+    margin-top: 60px;
 }
