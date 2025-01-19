@@ -94,3 +94,70 @@
     font-size: 16px;
     color: #0e0e0ea2;
 }
+/* future vision style */
+.future-vision-description{
+    font-size: 16px;
+    color: #0e0e0ea2;
+}
+.future-vision-boxes{
+    display: flex;
+    margin-top: 50px;
+    gap: 10px;
+    justify-content: space-between;
+    margin-left: 0;
+}
+.future-vision-box{
+    padding: 24px;
+    border-radius: 16px;
+    max-width: 33;
+}
+.future-vision-btn{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 15px;
+}
+.btn-yellow{
+    background-color: #FFC239;
+}
+.btn-green{
+    background-color: #09A15C;
+}
+.btn-blue{
+    background-color: #5490F5;
+}
+.blue-box{
+    background-color: #548ff53b;
+}
+.green-box{
+    background-color: #C6E4D6;
+}
+.yellow-box{
+    background-color: #F7EBCF;
+}
+.younus-contain{
+    background-color: white;
+    border-radius: 15px;
+    border: 5px black;
+    padding: 35px 24px;
+    margin-top: 80px;
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: 42px 23px;
+}
+.younus-speech{
+    font-size: 16px;
+    color: #0e0e0ed3;
+}
+.name-title{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #0e0e0edc;
+}
+.name-subtitle{
+    font-size: 16px;
+    color: #0e0e0e79;
+}
