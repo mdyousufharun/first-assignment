@@ -6,6 +6,10 @@
   font-variation-settings:
     "wdth" 100;
 }
+*{
+    margin-right: 20px;
+    margin-left: 20px;
+}
 /* shared css code */
 .main-btn{
     font-size: 18px;
@@ -15,6 +19,9 @@
     border-radius: 8px;
     border: none;
     padding: 20px 35px;
+}
+.main-color{
+    background-color: #F1F1F3;
 }
 /* header css */
 .btn-primary{
@@ -39,8 +46,6 @@
 .landing-page{
     background-color: #C6E4D6;
     display: flex;
-    margin-right: 40px;
-    margin-left: 40px;
     padding: 50px;
     border-radius: 20px;
     gap: 60px;
@@ -60,4 +65,32 @@
     font-size: 49px;
     font-weight: bold;
     color: #0E0E0E;
+}
+/* pilllars contains style */
+.pillars-contain{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.contain-tittle{
+    font-weight: bold;
+    font-size: 40px;
+    color: #0E0E0E;
+}
+.all-contain-box{
+    display: flex;
+    margin: 0;
+}
+.pillars-box-contain{
+    background-color: #FFFFFF;
+    padding: 24px;
+    border-radius: 10px;
+}
+.contain-box-tittle{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0e0e0edc;
+}
+.contain-box-description{
+    font-size: 16px;
+    color: #0e0e0ea2;
 }
