@@ -19,6 +19,13 @@
     border-radius: 8px;
     border: none;
     padding: 18px 30px;
+    transition: background-color 0.3s linear;
+}
+.main-btn:hover {
+    background-color: white;
+    color: #006A50;
+    border: 1px solid #006A50;
+    cursor: pointer;
 }
 .main-color{
     background-color: #F1F1F3;
@@ -235,6 +242,10 @@
     border: 2px solid #0e0e0e3d;
     background-color: white;
 }
+.money-box:hover {
+    background-color: #C6E4D6;
+    cursor: pointer;
+}
 .money-box h2{
     font-size: 35px;
     font-weight: bold;
@@ -284,7 +295,6 @@
     display: flex;
     align-items: flex-start;
 }
-
 .subs-btn{
     font-size: 18px;
     font-weight: 600;
@@ -295,8 +305,7 @@
     padding: 17px 30px;
     display: inline-block;
     margin: 0px;
-    width: 150px;
-      
+    width: 150px;   
 }
 .subscribe-input input{
     padding: 18.5px 90px;
@@ -312,4 +321,18 @@
     color: rgba(14, 14, 14, 0.7);
     margin-top: 30px;
     text-align: center;
+}
+/* footer section style */
+.footer-section{
+    text-align: center;
+    margin-top: 100px;
+}
+.last-heading{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #0E0E0E;
+}
+.img-section{
+    margin-top: 25px;
 }
